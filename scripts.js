@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   function openSim(key){
     modal.classList.add('show');
     if(key==='classroom'){
-      modalBody.innerHTML = `<h3>Google Sala de Aula</h3><p>Link real: abrirá em nova aba.<br><a href="https://classroom.google.com/c/NzgxMzM5NzEyMDkz?cjc=qvkmpmag" target="_blank">Abrir turma no Classroom</a></p>`;
+      modalBody.innerHTML = `<h3>Google Sala de Aula</h3><p>Link real: abrirá em nova aba. Código da turma: qvkmpmag<br><a href="https://classroom.google.com/c/NzgxMzM5NzEyMDkz?cjc=qvkmpmag" target="_blank">Abrir turma no Classroom</a></p>`;
     } else if(key==='form'){
       modalBody.innerHTML = `<h3>Formulário Diagnóstico</h3><p>Link real: <a href="https://docs.google.com/forms/d/1vp9jAWT1afKOz6fPF4q9ZVpcCXO2U5_OKd-UyVI7mbk/edit" target="_blank">Abrir Formulário</a></p>`;
     } else if(key==='miro'){
